@@ -1,0 +1,123 @@
+main{
+    margin: 15px;
+
+}
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.phase1{
+    background-color:lightgrey;
+    height: 40vw;
+    background-image: url(imgs/ripple.jpeg);
+    background-size: cover;
+    background-size: 40vw 40vw;
+    width: 20vw;
+    margin-left: 25px;
+
+}
+.phase1 h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vw;
+/*    width: 60vw;*/
+    font-size: 1.55em;
+}
+.phase1 a{
+    text-decoration: none;
+}
+.phase2{
+    background-color:lightblue;
+    height: 40vw;
+    background-image: url(imgs/phase2-hands.jpeg);
+    background-size: cover;
+    background-size: 40vw 40vw;
+    margin-top: 5px;
+    width: 20vw;
+    margin-left: 10px;
+
+}
+.phase2 h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vw;
+/*    width: 60vw;*/
+    font-size: 1.55em;
+}
+.phase2 a{
+    text-decoration: none;
+}
+.phase3{
+    background-color:lightgoldenrodyellow;
+/*    width: 90vw;*/
+    height: 40vw;
+    background-image: url(imgs/ocean.jpeg);
+    background-size: cover;
+    background-size: 40vw 40vw;
+    margin-top: 5px;
+    width: 20vw;
+    margin-left: 25px;
+
+}
+.phase3 h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vw;
+    font-size: 1.55em;
+}
+.phase3 a{
+    text-decoration: none;
+}
+.phase4{
+    background-color: lightpink;
+/*    width: 90vw;*/
+    height: 40vw;
+    background-image: url(../imgs/phase4Surf.jpeg);
+  background-size: cover;
+    background-size: 40vw 40vw;
+    background-repeat: no-repeat;
+    width: 20vw;
+    margin-left: 10px;
+
+
+/*    margin-top: 5px;*/
+}
+.phase4 h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vw;
+    font-size: 1.55em;
+}
+.phase4 a{
+    text-decoration: none;
+}
+.footer{
+/*    margin-top: 10px;*/
+/*    border-top: solid 1px dimgray;*/
+}
+.footer ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+@media(min-width: 900px) {
+
+}
